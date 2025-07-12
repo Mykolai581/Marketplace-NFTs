@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons/Logo-icons.svg" />
+    <link rel="stylesheet" href="style/resetStyles.css" />
+    <link rel="stylesheet" href="style/rankings.css" />
+    <title>NFT Marketplace</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img src="img/icons/Logo.svg" alt="Logo" />
+            </a>
+          </div>
+
+          <button class="header__menu-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="pages/marketplace.html" class="menu__link"
+                    >Marketplace</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="pages/rankings.html" class="menu__link">Rankings</a>
+                </li>
+                <li class="menu__item">
+                  <a href="pages/connectWallet.html" class="menu__link"
+                    >Connect a wallet</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="header__button button">
+              <a
+                href="pages/createAccount.html"
+                class="header__link-button button-link"
+              >
+                <img src="img/icons/User.svg" alt="User" /> Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main__top top">
+          <div class="top__container animation">
+            <h2 class="top__title">Top Creators</h2>
+            <div class="top__text">
+              <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
+            </div>
+          </div>
+        </section>
+        <section class="main__tabs-btn tabs-btn">
+          <div class="tabs-btn__container">
+            <div class="tab-buttons">
+              <button class="tab-button btn-today active" data-tab="tab1">
+                Today
+              </button>
+              <button class="tab-button btn-week" data-tab="tab2">
+                This Week
+              </button>
+              <button class="tab-button btn-month" data-tab="tab3">
+                This Month
+              </button>
+              <button class="tab-button btn-time" data-tab="tab4">
+                All Time
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="main__tabs tabs">
+          <div class="tabs__container">
+            <div class="tabs__item-info item-tabs">
+              <div class="item-tabs__info">
+                <div class="item-tabs-info__number">#</div>
+
+                <div class="item-tabs__title">Artist</div>
+              </div>
+              <div class="item-tabs__content-info">
+                <div class="item-tabs__change-info">Change</div>
+                <div class="item-tabs__solid-info">NFTs Sold</div>
+                <div class="item-tabs__volume-info">Volume</div>
+              </div>
+            </div>
+            <div
+              class="tabs__items items content content-today active animation"
+              id="tab1"
+            ></div>
+            <div
+              class="tabs__items items content content-week animation"
+              id="tab2"
+            >
+              <div class="tabs__item-info item-tabs">
+                <div class="item-tabs__info">
+                  <div class="item-tabs-info__number">#</div>
+
+                  <div class="item-tabs__title">Artist</div>
+                </div>
+                <div class="item-tabs__content-info">
+                  <div class="item-tabs__change-info">Change</div>
+                  <div class="item-tabs__solid-info">NFTs Sold</div>
+                  <div class="item-tabs__volume-info">Volume</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tabs__items items content content-month animation"
+              id="tab3"
+            >
+              <div class="tabs__item-info item-tabs">
+                <div class="item-tabs__info">
+                  <div class="item-tabs-info__number">#</div>
+
+                  <div class="item-tabs__title">Artist</div>
+                </div>
+                <div class="item-tabs__content-info">
+                  <div class="item-tabs__change-info">Change</div>
+                  <div class="item-tabs__solid-info">NFTs Sold</div>
+                  <div class="item-tabs__volume-info">Volume</div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tabs__items items content content-time animation"
+              id="tab4"
+            >
+              <div class="tabs__item-info item-tabs">
+                <div class="item-tabs__info">
+                  <div class="item-tabs-info__number">#</div>
+
+                  <div class="item-tabs__title">Artist</div>
+                </div>
+                <div class="item-tabs__content-info">
+                  <div class="item-tabs__change-info">Change</div>
+                  <div class="item-tabs__solid-info">NFTs Sold</div>
+                  <div class="item-tabs__volume-info">Volume</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__items">
+            <div class="footer__item">
+              <div class="footer__logo">
+                <a href="index.html" class="footer__logo-link">
+                  <img src="img/icons/Logo.svg" alt="Logo" />
+                </a>
+              </div>
+              <div class="footer__text">
+                NFT marketplace UI created with Anima for Figma.
+              </div>
+              <div class="footer__text">Join our community</div>
+              <div class="footer__community community">
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/DiscordLogo.svg"
+                    alt="Discord"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/YoutubeLogo.svg"
+                    alt="YouTube"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/TwitterLogo.svg"
+                    alt="Twitter"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/InstagramLogo.svg"
+                    alt="Instagram"
+                    class="community__image"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__logo">Explore</div>
+              <div class="footer__text footer__text-link">Marketplace</div>
+              <div class="footer__text footer__text-link">Rankings</div>
+              <div class="footer__text footer__text-link">Connect a wallet</div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__logo">Join our weekly digest</div>
+              <div class="footer__text footer__text-link">
+                Get exclusive promotions & updates straight to your inbox.
+              </div>
+              <form class="subscribe__form footer__form">
+                <input
+                  type="text"
+                  class="subscribe__input footer__input"
+                  placeholder="Enter your email here"
+                />
+                <button type="submit" class="subscribe__button footer__button">
+                  <img src="img/subscribe/email.svg" alt="Email" />Subscribe
+                </button>
+              </form>
+              <div class="message__footer"></div>
+            </div>
+          </div>
+          <div class="footer__container-bottom">
+            <p>Ⓒ NFT Market. Use this template freely.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/rankings.js"></script>
+  </body>
+</html>

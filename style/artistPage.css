@@ -1,0 +1,208 @@
+/* Animakid */
+
+.main__animakid {
+  font-family: "Work Sans";
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.animakid__container {
+  padding-top: 200px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #3b3b3b;
+}
+
+.animakid__image {
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 25px;
+  overflow: hidden;
+  z-index: 3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.animakid__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.animakid__info {
+  margin-top: 100px;
+  flex: 1 1 auto;
+}
+
+.animakid__name {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.animakid__buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.animakid__items {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.item-animakid__title {
+  font-family: "Space Mono";
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.item-animakid__text-info {
+  font-size: 25px;
+}
+.animakid__bio {
+  margin-bottom: 50px;
+}
+
+.animakid__title {
+  font-family: "Space Mono";
+  color: #858584;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.bio__text {
+  font-size: 25px;
+}
+.animakid__links {
+  display: flex;
+  gap: 10px;
+}
+
+.animakid__button-copy {
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 25px 50px;
+  background-color: #a259ff;
+  border-radius: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.animakid__button-follow {
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 25px 50px;
+  border: 2px solid #a259ff;
+  border-radius: 25px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.animakid__button-copy,
+.animakid__button-follow img {
+  margin: 0px 5px 0px 0px;
+}
+
+.animakid__button-copy:hover {
+  transform: translateY(3);
+  background-color: #8442db;
+  transform: scale(0.95) translateY(4px);
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+}
+
+.animakid__button-follow:hover {
+  transform: translateY(3);
+  background-color: #8442db;
+  transform: scale(0.95) translateY(4px);
+  box-shadow: 0 2px 4px rgba(17, 17, 17, 0.2);
+}
+
+@media (max-width: 1100px) {
+  .animakid__container {
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+}
+
+@media (max-width: 960px) {
+  .animakid__name {
+    font-size: 35px;
+  }
+  .item-animakid__title {
+    font-size: 25px;
+  }
+  .item-animakid__text-info {
+    font-size: 18px;
+  }
+  .animakid__title,
+  .bio__text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .animakid__image {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 550px) {
+  .animakid__buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 470px) {
+  .animakid__items {
+    gap: 20px;
+  }
+  .item-animakid__title {
+    font-size: 20px;
+  }
+  .item-animakid__text-info {
+    font-size: 12px;
+  }
+  .bio__text {
+    font-size: 16px;
+  }
+  .animakid__button-copy,
+  .animakid__button-follow {
+    padding: 25px 50px;
+    font-size: 14px;
+  }
+  .animakid__button-copy,
+  .animakid__button-follow img {
+    margin: -4px 5px 0px 0px;
+  }
+}
+
+/*Animakid-items*/
+
+.main__animakid-items {
+  font-family: "Work Sans";
+  background-color: #3b3b3b;
+}
+
+.animakid-items__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #2b2b2b;
+}
+
+.animakid-items__item-content {
+  background-color: #2b2b2b;
+}
+
+@media (max-width: 767px) {
+  .animakid-items__title {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+}

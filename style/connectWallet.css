@@ -1,0 +1,106 @@
+/*Animation*/
+
+.animation {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+
+.connect__image.animation {
+  transform: translateX(-100px);
+}
+
+.connect__content.animation {
+  transform: translateY(100px);
+}
+
+.animation.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*Connect*/
+
+.main__connect {
+  font-family: "Work Sans";
+}
+
+.connect__container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.connect__image {
+  max-width: 600px;
+}
+.connect__image img {
+  max-width: 100%;
+}
+
+.connect__title {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.connect__text {
+  font-size: 22px;
+  margin-bottom: 50px;
+  max-width: 420px;
+  font-weight: 300;
+}
+
+.connect__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect__button {
+  max-width: 320px;
+  text-align: start;
+  font-size: 20px;
+  color: #fff;
+  background-color: #3b3b3b;
+  border: 2px solid #a259ff;
+}
+
+.connect__button:hover {
+  background-color: #2b2b2b;
+}
+
+.connect__button:nth-child(n + 1) {
+  margin-bottom: 20px;
+}
+
+.connect__button img {
+  margin: -7px 10px 0px 0px;
+}
+
+@media (max-width: 1060px) {
+  .connect__container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .connect__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .connect__text {
+    font-size: 16px;
+  }
+  .connect__button {
+    font-size: 18px;
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 400px) {
+  .connect__button {
+    font-size: 15px;
+  }
+  .connect__button img {
+    margin: -2px 5px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+}

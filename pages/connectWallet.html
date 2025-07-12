@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icons/Logo-icons.svg" />
+    <link rel="stylesheet" href="style/resetStyles.css" />
+    <link rel="stylesheet" href="style/connectWallet.css" />
+    <title>NFT Marketplace</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+              <img src="img/icons/Logo.svg" alt="Logo" />
+            </a>
+          </div>
+
+          <button class="header__menu-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="pages/marketplace.html" class="menu__link"
+                    >Marketplace</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="pages/rankings.html" class="menu__link">Rankings</a>
+                </li>
+                <li class="menu__item">
+                  <a href="pages/connectWallet.html" class="menu__link"
+                    >Connect a wallet</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="header__button button">
+              <a
+                href="pages/createAccount.html"
+                class="header__link-button button-link"
+              >
+                <img src="img/icons/User.svg" alt="User" /> Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main__connect connect">
+          <div class="connect__container">
+            <div class="connect__image animation">
+              <img
+                loading="lazy"
+                src="img/connectWallet/Image.jpg"
+                alt="Image"
+              />
+            </div>
+            <div class="connect__content animation">
+              <h2 class="connect__title">Connect wallet</h2>
+              <div class="connect__text">
+                <p>
+                  Choose a wallet you want to connect. There are several wallet
+                  providers.
+                </p>
+              </div>
+              <form class="connect__form">
+                <button
+                  type="submit"
+                  class="connect__button connect-wallet button"
+                >
+                  <img
+                    src="img/connectWallet/Metamask.svg"
+                    alt="Metamask"
+                  />Metamask
+                </button>
+                <button type="submit" class="connect__button button">
+                  <img
+                    src="img/connectWallet/WalletConnect.svg"
+                    alt="Wallet Connect"
+                  />
+                  Wallet Connect
+                </button>
+                <button type="submit" class="connect__button button">
+                  <img src="img/connectWallet/Coinbase.svg" alt="Coinbase" />
+                  Coinbase
+                </button>
+                <p id="error-message"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__items">
+            <div class="footer__item">
+              <div class="footer__logo">
+                <a href="index.html" class="footer__logo-link">
+                  <img src="img/icons/Logo.svg" alt="Logo" />
+                </a>
+              </div>
+              <div class="footer__text">
+                NFT marketplace UI created with Anima for Figma.
+              </div>
+              <div class="footer__text">Join our community</div>
+              <div class="footer__community community">
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/DiscordLogo.svg"
+                    alt="Discord"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/YoutubeLogo.svg"
+                    alt="YouTube"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/TwitterLogo.svg"
+                    alt="Twitter"
+                    class="community__image"
+                  />
+                </a>
+                <a href="#" class="community__link">
+                  <img
+                    src="img/icons/InstagramLogo.svg"
+                    alt="Instagram"
+                    class="community__image"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__logo">Explore</div>
+              <div class="footer__text footer__text-link">Marketplace</div>
+              <div class="footer__text footer__text-link">Rankings</div>
+              <div class="footer__text footer__text-link">Connect a wallet</div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__logo">Join our weekly digest</div>
+              <div class="footer__text footer__text-link">
+                Get exclusive promotions & updates straight to your inbox.
+              </div>
+              <form class="subscribe__form footer__form">
+                <input
+                  type="text"
+                  class="subscribe__input footer__input"
+                  placeholder="Enter your email here"
+                />
+                <button type="submit" class="subscribe__button footer__button">
+                  <img src="img/subscribe/email.svg" alt="Email" />Subscribe
+                </button>
+              </form>
+              <div class="message__footer"></div>
+            </div>
+          </div>
+          <div class="footer__container-bottom">
+            <p>Ⓒ NFT Market. Use this template freely.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="scripts/connectWallet.js"></script>
+  </body>
+</html>
